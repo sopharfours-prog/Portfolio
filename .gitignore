@@ -1,1 +1,4 @@
 .DS_Store
+# Private access notes (email addresses, passwords) — never committed
+ACCESS.local.md
+*.local.md
