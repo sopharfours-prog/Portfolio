@@ -1,0 +1,184 @@
+/* =========================================================================
+   Motion system
+   - Scroll reveals: [data-animate="fade-up|fade-in|fade-left|fade-right|scale-in"]
+     are revealed by js/animations.js (IntersectionObserver). Optional --delay.
+   - Only hidden when JS is running (html.js), so content never disappears without JS.
+   ========================================================================= */
+
+:root {
+  --reveal-duration: 0.85s;
+  --reveal-distance: 30px;
+}
+
+/* Reveals use the individual `translate` / `scale` properties, so they never
+   conflict with hover effects that use `transform` on the same element. */
+html.js [data-animate] {
+  opacity: 0;
+  transition: opacity var(--reveal-duration) var(--ease-out), translate var(--reveal-duration) var(--ease-out),
+    scale var(--reveal-duration) var(--ease-out);
+  transition-delay: var(--delay, 0ms);
+}
+html.js [data-animate='fade-up'] { translate: 0 var(--reveal-distance); }
+html.js [data-animate='fade-left'] { translate: var(--reveal-distance) 0; }
+html.js [data-animate='fade-right'] { translate: calc(var(--reveal-distance) * -1) 0; }
+html.js [data-animate='scale-in'] { scale: 0.94; }
+html.js [data-animate].is-visible {
+  opacity: 1;
+  translate: none;
+  scale: none;
+}
+
+/* Cards are both revealed and hover-animated: combine both transition sets */
+html.js .service-card[data-animate] {
+  transition: opacity var(--reveal-duration) var(--ease-out) var(--delay, 0ms),
+    translate var(--reveal-duration) var(--ease-out) var(--delay, 0ms),
+    transform 0.5s var(--ease-out), border-color var(--dur) ease, box-shadow 0.5s var(--ease-out);
+}
+
+/* ---------- Hero entrance (staggered) ---------- */
+html.js [data-hero-item] {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+}
+/* The portrait is the LCP element: keep it opaque and only scale it in */
+html.js .hero__media[data-hero-item] { opacity: 1; transform: scale(0.97); }
+/* Runs from first paint (no wait for the JS bundle), so the hero is never held back */
+html.js [data-hero-item] {
+  animation: hero-in 0.9s var(--ease-out) forwards;
+  animation-delay: calc(var(--i, 0) * 80ms);
+}
+html.js .hero__media[data-hero-item] { animation-name: hero-media-in; animation-duration: 1.2s; animation-delay: 0s; }
+
+@keyframes hero-in {
+  to { opacity: 1; transform: none; }
+}
+@keyframes hero-media-in {
+  from { transform: scale(0.97); }
+  to { transform: none; }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ---------- Project filtering ---------- */
+.projects-grid.is-filtered .project-card {
+  animation: card-in 0.7s var(--ease-out) both;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+@keyframes card-in {
+  from { opacity: 0; transform: translate3d(0, 24px, 0); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ---------- Mobile menu links ---------- */
+.mobile-menu__links li,
+.mobile-menu__footer {
+  opacity: 0;
+  transform: translate3d(0, 20px, 0);
+  transition: opacity 0.5s var(--ease-out), transform 0.5s var(--ease-out);
+}
+.mobile-menu.is-open .mobile-menu__links li,
+.mobile-menu.is-open .mobile-menu__footer {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(var(--i, 0) * 50ms + 200ms);
+}
+
+/* ---------- Project modal ---------- */
+.project-modal[open] { animation: modal-in 0.55s var(--ease-out); }
+.project-modal[open]::backdrop { animation: fade-in 0.4s ease; }
+@keyframes modal-in {
+  from { opacity: 0; transform: translate3d(0, 40px, 0); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ---------- Small loops ---------- */
+@keyframes pulse-ring {
+  0% { opacity: 0.8; transform: scale(0.6); }
+  100% { opacity: 0; transform: scale(1.8); }
+}
+
+/* ---------- Reduced motion: show everything, stop movement ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  /* Overrides every animation/transition in the project, so !important is required here */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  html.js [data-animate] {
+    opacity: 1;
+    translate: none;
+    scale: none;
+  }
+  html.js [data-hero-item],
+  .mobile-menu__links li,
+  .mobile-menu__footer {
+    opacity: 1;
+    transform: none;
+  }
+  .hero__portrait img { transform: scale(1.02); }
+  .status-dot::after { animation: none; }
+}
+
+/* ---------- Generic scroll reveals: .reveal / .reveal-left / .reveal-right ---------- */
+html.js .reveal,
+html.js .reveal-left,
+html.js .reveal-right {
+  opacity: 0;
+  transition: opacity 0.8s var(--ease-out), translate 0.8s var(--ease-out);
+  transition-delay: var(--delay, 0ms);
+}
+html.js .reveal { translate: 0 24px; }
+html.js .reveal-left { translate: -40px 0; }
+html.js .reveal-right { translate: 40px 0; }
+html.js .reveal.is-visible,
+html.js .reveal-left.is-visible,
+html.js .reveal-right.is-visible { opacity: 1; translate: none; }
+
+/* ---------- About hero entrance (pure CSS, starts at first paint) ---------- */
+/* The portrait is the page's main content: it slides in but stays visible, so it counts as painted at once */
+html.js .about-hero__frame { animation: about-slide-left 0.85s var(--ease-out) both; }
+html.js .about-hero__title { animation: about-from-right 0.85s var(--ease-out) both; }
+html.js .about-hero__subtitle { animation: about-from-below 0.8s var(--ease-out) 0.12s both; }
+html.js .about-hero__text { animation: about-from-below 0.8s var(--ease-out) 0.22s both; }
+html.js .about-hero__actions { animation: about-from-below 0.8s var(--ease-out) 0.34s both; }
+html.js .about-hero__pattern { animation: fade-in 1.4s ease 0.2s both; }
+@keyframes about-slide-left { from { transform: translate3d(-40px, 0, 0); } }
+@keyframes about-from-right { from { opacity: 0; transform: translate3d(40px, 0, 0); } }
+@keyframes about-from-below { from { opacity: 0; transform: translate3d(0, 24px, 0); } }
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .reveal, html.js .reveal-left, html.js .reveal-right { opacity: 1; translate: none; }
+  html.js .about-hero__frame, html.js .about-hero__title, html.js .about-hero__subtitle,
+  html.js .about-hero__text, html.js .about-hero__actions, html.js .about-hero__pattern { animation: none; }
+}
+
+/* Toast (sign-in / sign-out) */
+@keyframes toast-in {
+  from { opacity: 0; transform: translate(-50%, -12px) scale(0.96); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+@keyframes toast-out {
+  to { opacity: 0; transform: translate(-50%, -8px); }
+}
+
+
+/* Skills: bars grow and rings draw once their panel is revealed, one after another */
+html.js .skills-panel[data-animate] .skill-bar__fill {
+  transform: scaleX(0);
+  transition: transform 1.1s var(--ease-out) calc(0.2s + var(--i, 0) * 60ms);
+}
+html.js .skills-panel[data-animate].is-visible .skill-bar__fill { transform: scaleX(var(--level, 1)); }
+html.js .skills-panel[data-animate] .skill-ring__fill {
+  stroke-dashoffset: 100;
+  transition: stroke-dashoffset 1.4s var(--ease-out) calc(0.3s + var(--i, 0) * 90ms);
+}
+html.js .skills-panel[data-animate].is-visible .skill-ring__fill { stroke-dashoffset: calc(100 - var(--level, 100)); }

@@ -1,0 +1,933 @@
+{
+  "projects": [
+    {
+      "slug": "lumen-coffee",
+      "title": "Lumen Coffee",
+      "category": "web",
+      "year": "2026",
+      "client": "Lumen Coffee Roasters",
+      "role": {
+        "lo": "ອອກແບບ & ພັດທະນາ",
+        "en": "Design & Development"
+      },
+      "image": "assets/images/project-01.webp",
+      "gallery": [
+        "assets/images/project-01-a.webp",
+        "assets/images/project-01-b.webp"
+      ],
+      "summary": {
+        "lo": "ເວັບໄຊຂາຍກາເຟອອນລາຍ ພ້ອມລະບົບສັ່ງຊື້ ແລະ ສະມາຊິກ.",
+        "en": "An online coffee store with ordering and a membership programme."
+      },
+      "description": {
+        "lo": "ອອກແບບ ແລະ ພັດທະນາຮ້ານຄ້າອອນລາຍໃຫ້ແບຣນກາເຟທ້ອງຖິ່ນ ເນັ້ນການເລົ່າເລື່ອງແຫຼ່ງທີ່ມາຂອງເມັດກາເຟ ແລະ ປະສົບການສັ່ງຊື້ທີ່ງ່າຍດາຍ.",
+        "en": "Designed and built an online store for a local coffee brand, telling the story behind each bean and keeping checkout effortless."
+      },
+      "challenge": {
+        "lo": "ລູກຄ້າສ່ວນໃຫຍ່ສັ່ງຊື້ຜ່ານມືຖື ແຕ່ເວັບໄຊເກົ່າໂຫຼດຊ້າ ແລະ ຂັ້ນຕອນຊຳລະເງິນຊັບຊ້ອນ.",
+        "en": "Most customers ordered on mobile, but the old site was slow and checkout was complicated."
+      },
+      "solution": {
+        "lo": "ອອກແບບແບບ Mobile-first, ຫຼຸດຂັ້ນຕອນຊຳລະເງິນເຫຼືອ 2 ໜ້າ ແລະ ປັບຮູບພາບເປັນ WebP ເພື່ອໃຫ້ໂຫຼດໄວຂຶ້ນ.",
+        "en": "A mobile-first redesign, a two-step checkout and optimised WebP imagery for much faster loading."
+      },
+      "features": {
+        "lo": [
+          "ລະບົບຕະກ້າສິນຄ້າ ແລະ ຊຳລະເງິນ",
+          "ລະບົບສະມາຊິກ ແລະ ສະສົມແຕ້ມ",
+          "ໜ້າຈັດການສິນຄ້າສຳລັບແອັດມິນ",
+          "ຮອງຮັບ 2 ພາສາ"
+        ],
+        "en": [
+          "Cart and checkout",
+          "Membership and loyalty points",
+          "Admin product management",
+          "Bilingual content"
+        ]
+      },
+      "technologies": [
+        "Laravel",
+        "Bootstrap",
+        "JavaScript",
+        "MySQL"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "slug": "mekong-erp",
+      "title": "Mekong ERP",
+      "category": "web",
+      "year": "2025",
+      "client": "Mekong Logistics",
+      "role": {
+        "lo": "Full-stack Developer",
+        "en": "Full-stack Developer"
+      },
+      "image": "assets/images/project-02.webp",
+      "gallery": [
+        "assets/images/project-02-a.webp",
+        "assets/images/project-02-b.webp"
+      ],
+      "summary": {
+        "lo": "ລະບົບຈັດການພາຍໃນ ແລະ Dashboard ສຳລັບບໍລິສັດຂົນສົ່ງ.",
+        "en": "An internal management system and dashboard for a logistics company."
+      },
+      "description": {
+        "lo": "ລະບົບ ERP ທີ່ລວມການຈັດການຄັງສິນຄ້າ, ການຂົນສົ່ງ ແລະ ລາຍງານການເງິນ ໄວ້ໃນບ່ອນດຽວ.",
+        "en": "An ERP that brings inventory, shipment tracking and financial reporting together in one place."
+      },
+      "challenge": {
+        "lo": "ຂໍ້ມູນກະແຈກກະຈາຍຢູ່ໃນ Excel ຫຼາຍໄຟລ໌ ເຮັດໃຫ້ລາຍງານຊ້າ ແລະ ຜິດພາດເລື້ອຍໆ.",
+        "en": "Data was scattered across many spreadsheets, making reports slow and error-prone."
+      },
+      "solution": {
+        "lo": "ສ້າງຖານຂໍ້ມູນກາງ, ກຳນົດສິດຜູ້ໃຊ້ຕາມບົດບາດ ແລະ Dashboard ລາຍງານແບບ Real-time.",
+        "en": "A central database, role-based permissions and a real-time reporting dashboard."
+      },
+      "features": {
+        "lo": [
+          "Dashboard ລາຍງານແບບ Real-time",
+          "ຈັດການຄັງສິນຄ້າ",
+          "ຕິດຕາມການຂົນສົ່ງ",
+          "ສິດຜູ້ໃຊ້ຕາມບົດບາດ"
+        ],
+        "en": [
+          "Real-time reporting dashboard",
+          "Inventory management",
+          "Shipment tracking",
+          "Role-based access"
+        ]
+      },
+      "technologies": [
+        "Laravel",
+        "MySQL",
+        "Chart.js",
+        "Bootstrap"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "slug": "vientiane-go",
+      "title": "Vientiane Go",
+      "category": "mobile",
+      "year": "2025",
+      "client": "Tourism Start-up",
+      "role": {
+        "lo": "UI Design & Mobile Development",
+        "en": "UI Design & Mobile Development"
+      },
+      "image": "assets/images/project-03.webp",
+      "gallery": [
+        "assets/images/project-03-a.webp",
+        "assets/images/project-03-b.webp"
+      ],
+      "summary": {
+        "lo": "ແອັບນຳທ່ຽວວຽງຈັນ ພ້ອມແຜນທີ່ ແລະ ການຈອງກິດຈະກຳ.",
+        "en": "A Vientiane travel guide app with maps and activity booking."
+      },
+      "description": {
+        "lo": "ແອັບມືຖືທີ່ຊ່ວຍນັກທ່ອງທ່ຽວຄົ້ນຫາສະຖານທີ່, ຮ້ານອາຫານ ແລະ ຈອງກິດຈະກຳໃນວຽງຈັນ.",
+        "en": "A mobile app that helps travellers discover places and restaurants and book activities in Vientiane."
+      },
+      "challenge": {
+        "lo": "ນັກທ່ອງທ່ຽວຕ້ອງການຂໍ້ມູນທີ່ໃຊ້ໄດ້ເຖິງແມ່ນບໍ່ມີອິນເຕີເນັດ.",
+        "en": "Travellers needed information that still works without an internet connection."
+      },
+      "solution": {
+        "lo": "ອອກແບບໃຫ້ໃຊ້ງານແບບ Offline-first ພ້ອມແຜນທີ່ທີ່ດາວໂຫຼດໄວ້ລ່ວງໜ້າ.",
+        "en": "An offline-first design with pre-downloaded maps."
+      },
+      "features": {
+        "lo": [
+          "ແຜນທີ່ Offline",
+          "ຈອງກິດຈະກຳ",
+          "ບັນທຶກສະຖານທີ່ທີ່ມັກ",
+          "ຮອງຮັບ 3 ພາສາ"
+        ],
+        "en": [
+          "Offline maps",
+          "Activity booking",
+          "Saved favourites",
+          "Three languages"
+        ]
+      },
+      "technologies": [
+        "Flutter",
+        "Firebase",
+        "Google Maps API"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "slug": "kinetic-design-system",
+      "title": "Kinetic Design System",
+      "category": "uiux",
+      "year": "2025",
+      "client": "SaaS Product Team",
+      "role": {
+        "lo": "Lead UI/UX Designer",
+        "en": "Lead UI/UX Designer"
+      },
+      "image": "assets/images/project-04.webp",
+      "gallery": [
+        "assets/images/project-04-a.webp",
+        "assets/images/project-04-b.webp"
+      ],
+      "summary": {
+        "lo": "Design System ທີ່ໃຊ້ຮ່ວມກັນລະຫວ່າງທີມອອກແບບ ແລະ ທີມພັດທະນາ.",
+        "en": "A design system shared by design and engineering teams."
+      },
+      "description": {
+        "lo": "ສ້າງ Design System ຄົບຊຸດ ຕັ້ງແຕ່ Design Tokens, Components ຈົນເຖິງເອກະສານການນຳໃຊ້.",
+        "en": "A complete design system, from design tokens and components to usage documentation."
+      },
+      "challenge": {
+        "lo": "ແຕ່ລະໜ້າຂອງຜະລິດຕະພັນມີໜ້າຕາບໍ່ຄືກັນ ເຮັດໃຫ້ຜູ້ໃຊ້ສັບສົນ ແລະ ພັດທະນາຊ້າ.",
+        "en": "Every screen looked different, which confused users and slowed development."
+      },
+      "solution": {
+        "lo": "ກຳນົດ Tokens ສີ, ຕົວອັກສອນ ແລະ ໄລຍະຫ່າງ ແລ້ວສ້າງ Components ທີ່ນຳໃຊ້ຄືນໄດ້ຫຼາຍກວ່າ 60 ລາຍການ.",
+        "en": "Defined colour, type and spacing tokens, then built 60+ reusable components."
+      },
+      "features": {
+        "lo": [
+          "Design Tokens",
+          "Components 60+",
+          "ຮອງຮັບ Dark Mode",
+          "ເອກະສານການນຳໃຊ້"
+        ],
+        "en": [
+          "Design tokens",
+          "60+ components",
+          "Dark mode support",
+          "Usage documentation"
+        ]
+      },
+      "technologies": [
+        "Figma",
+        "Storybook",
+        "CSS Variables"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "slug": "khao-studio",
+      "title": "Khao Studio",
+      "category": "branding",
+      "year": "2024",
+      "client": "Khao Studio",
+      "role": {
+        "lo": "Brand Designer",
+        "en": "Brand Designer"
+      },
+      "image": "assets/images/project-05.webp",
+      "gallery": [
+        "assets/images/project-05-a.webp",
+        "assets/images/project-05-b.webp"
+      ],
+      "summary": {
+        "lo": "ເອກະລັກແບຣນສຳລັບສະຕູດິໂອຖ່າຍພາບ.",
+        "en": "A visual identity for a photography studio."
+      },
+      "description": {
+        "lo": "ອອກແບບໂລໂກ້, ຊຸດສີ, ຕົວອັກສອນ ແລະ ສື່ສິ່ງພິມ ສຳລັບສະຕູດິໂອຖ່າຍພາບລະດັບພຣີມຽມ.",
+        "en": "Logo, colour palette, typography and print collateral for a premium photography studio."
+      },
+      "challenge": {
+        "lo": "ແບຣນຕ້ອງເບິ່ງຫຼູຫຼາ ແຕ່ຍັງເປັນກັນເອງ ແລະ ເຂົ້າເຖິງໄດ້.",
+        "en": "The brand had to feel premium while staying warm and approachable."
+      },
+      "solution": {
+        "lo": "ໃຊ້ໂທນສີທຳມະຊາດ, ຕົວອັກສອນ Serif ແລະ ພື້ນທີ່ວ່າງຢ່າງພໍດີ.",
+        "en": "Natural tones, a refined serif typeface and generous white space."
+      },
+      "features": {
+        "lo": [
+          "ໂລໂກ້ ແລະ ສັນຍາລັກ",
+          "ຄູ່ມືແບຣນ",
+          "ນາມບັດ ແລະ ສື່ສິ່ງພິມ",
+          "Template ສື່ສັງຄົມ"
+        ],
+        "en": [
+          "Logo and brand mark",
+          "Brand guidelines",
+          "Business cards and print",
+          "Social media templates"
+        ]
+      },
+      "technologies": [
+        "Illustrator",
+        "Photoshop",
+        "Figma"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "slug": "nakhon-stay",
+      "title": "Nakhon Stay",
+      "category": "mobile",
+      "year": "2024",
+      "client": "Boutique Hotel Group",
+      "role": {
+        "lo": "Mobile Developer",
+        "en": "Mobile Developer"
+      },
+      "image": "assets/images/project-06.webp",
+      "gallery": [
+        "assets/images/project-06-a.webp",
+        "assets/images/project-06-b.webp"
+      ],
+      "summary": {
+        "lo": "ແອັບຈອງໂຮງແຮມ ແລະ ບໍລິການແຂກແບບດິຈິຕອນ.",
+        "en": "A hotel booking and digital guest-service app."
+      },
+      "description": {
+        "lo": "ແອັບທີ່ໃຫ້ແຂກຈອງຫ້ອງ, Check-in ແລະ ສັ່ງບໍລິການຕ່າງໆໄດ້ຈາກມືຖື.",
+        "en": "An app that lets guests book rooms, check in and order services from their phone."
+      },
+      "challenge": {
+        "lo": "ການ Check-in ຢູ່ໜ້າເຄົາເຕີໃຊ້ເວລາດົນ ໃນຊ່ວງທີ່ມີແຂກຫຼາຍ.",
+        "en": "Front-desk check-in took too long during busy periods."
+      },
+      "solution": {
+        "lo": "ສ້າງລະບົບ Check-in ອອນລາຍ ແລະ ກະແຈຫ້ອງດິຈິຕອນ.",
+        "en": "Online check-in and a digital room key."
+      },
+      "features": {
+        "lo": [
+          "ຈອງຫ້ອງ",
+          "Check-in ອອນລາຍ",
+          "ກະແຈຫ້ອງດິຈິຕອນ",
+          "ສັ່ງບໍລິການຫ້ອງ"
+        ],
+        "en": [
+          "Room booking",
+          "Online check-in",
+          "Digital room key",
+          "Room-service ordering"
+        ]
+      },
+      "technologies": [
+        "Flutter",
+        "Laravel API",
+        "MySQL"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "slug": "pulse-health",
+      "title": "Pulse Health",
+      "category": "uiux",
+      "year": "2024",
+      "client": "Healthcare Start-up",
+      "role": {
+        "lo": "UI/UX Designer",
+        "en": "UI/UX Designer"
+      },
+      "image": "assets/images/project-07.webp",
+      "gallery": [
+        "assets/images/project-07-a.webp",
+        "assets/images/project-07-b.webp"
+      ],
+      "summary": {
+        "lo": "ອອກແບບ UX ແອັບຕິດຕາມສຸຂະພາບ ແລະ ນັດໝາຍແພດ.",
+        "en": "UX design for a health-tracking and doctor-appointment app."
+      },
+      "description": {
+        "lo": "ຄົ້ນຄວ້າຜູ້ໃຊ້ ແລະ ອອກແບບປະສົບການການນັດໝາຍແພດ ແລະ ຕິດຕາມສຸຂະພາບປະຈຳວັນ.",
+        "en": "User research and experience design for booking doctors and tracking daily health."
+      },
+      "challenge": {
+        "lo": "ຜູ້ໃຊ້ສູງອາຍຸຫຼາຍຄົນພົບຄວາມຫຍຸ້ງຍາກໃນການໃຊ້ແອັບສຸຂະພາບທົ່ວໄປ.",
+        "en": "Many older users struggled with typical health apps."
+      },
+      "solution": {
+        "lo": "ຕົວອັກສອນໃຫຍ່, ຂັ້ນຕອນໜ້ອຍ ແລະ ທົດສອບກັບຜູ້ໃຊ້ຈິງ 3 ຮອບ.",
+        "en": "Larger type, fewer steps and three rounds of testing with real users."
+      },
+      "features": {
+        "lo": [
+          "ການຄົ້ນຄວ້າຜູ້ໃຊ້",
+          "User Flow",
+          "Prototype ແບບໂຕ້ຕອບ",
+          "ທົດສອບການໃຊ້ງານ"
+        ],
+        "en": [
+          "User research",
+          "User flows",
+          "Interactive prototype",
+          "Usability testing"
+        ]
+      },
+      "technologies": [
+        "Figma",
+        "Maze",
+        "FigJam"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "slug": "dok-champa-tea",
+      "title": "Dok Champa Tea",
+      "category": "branding",
+      "year": "2023",
+      "client": "Dok Champa Tea House",
+      "role": {
+        "lo": "Brand & Packaging Designer",
+        "en": "Brand & Packaging Designer"
+      },
+      "image": "assets/images/project-08.webp",
+      "gallery": [
+        "assets/images/project-08-a.webp",
+        "assets/images/project-08-b.webp"
+      ],
+      "summary": {
+        "lo": "ແບຣນ ແລະ ບັນຈຸພັນສຳລັບຮ້ານຊາລາວ.",
+        "en": "Brand and packaging for a Lao tea house."
+      },
+      "description": {
+        "lo": "ອອກແບບແບຣນ ແລະ ບັນຈຸພັນທີ່ໄດ້ແຮງບັນດານໃຈຈາກດອກຈຳປາ ແລະ ລວດລາຍລາວ.",
+        "en": "A brand and packaging system inspired by the champa flower and Lao patterns."
+      },
+      "challenge": {
+        "lo": "ຕ້ອງການແບຣນທີ່ສະທ້ອນວັດທະນະທຳລາວ ແຕ່ເບິ່ງທັນສະໄໝ ເພື່ອຂາຍໃຫ້ນັກທ່ອງທ່ຽວ.",
+        "en": "The brand had to reflect Lao culture while feeling modern enough for visitors."
+      },
+      "solution": {
+        "lo": "ຫຼອມລວດລາຍດັ້ງເດີມໃຫ້ລຽບງ່າຍ ແລະ ໃຊ້ສີທີ່ສະອາດຕາ.",
+        "en": "Simplified traditional motifs paired with a clean colour palette."
+      },
+      "features": {
+        "lo": [
+          "ໂລໂກ້",
+          "ບັນຈຸພັນ",
+          "ລວດລາຍແບຣນ",
+          "ປ້າຍຮ້ານ"
+        ],
+        "en": [
+          "Logo",
+          "Packaging",
+          "Brand patterns",
+          "Shop signage"
+        ]
+      },
+      "technologies": [
+        "Illustrator",
+        "Photoshop"
+      ],
+      "url": "",
+      "github": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "filetype-html",
+      "group": "development",
+      "level": 95
+    },
+    {
+      "name": "CSS",
+      "icon": "filetype-css",
+      "group": "development",
+      "level": 92
+    },
+    {
+      "name": "JavaScript",
+      "icon": "filetype-js",
+      "group": "development",
+      "level": 88
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "bootstrap",
+      "group": "development",
+      "level": 90
+    },
+    {
+      "name": "Laravel",
+      "icon": "layers",
+      "group": "development",
+      "level": 85
+    },
+    {
+      "name": "PHP",
+      "icon": "filetype-php",
+      "group": "development",
+      "level": 85
+    },
+    {
+      "name": "MySQL",
+      "icon": "database",
+      "group": "development",
+      "level": 80
+    },
+    {
+      "name": "Git",
+      "icon": "git",
+      "group": "tools",
+      "level": 85
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "group": "tools",
+      "level": 85
+    },
+    {
+      "name": "UI/UX",
+      "icon": "palette",
+      "group": "design",
+      "level": 90
+    },
+    {
+      "name": "Figma",
+      "icon": "bezier2",
+      "group": "design",
+      "level": 90
+    },
+    {
+      "name": "Photoshop",
+      "icon": "filetype-psd",
+      "group": "design",
+      "level": 80
+    },
+    {
+      "name": "Illustrator",
+      "icon": "filetype-ai",
+      "group": "design",
+      "level": 78
+    }
+  ],
+  "services": [
+    {
+      "icon": "code-slash",
+      "title": {
+        "lo": "ພັດທະນາເວັບໄຊ",
+        "en": "Web Development"
+      },
+      "description": {
+        "lo": "ພັດທະນາເວັບໄຊ ແລະ ເວັບແອັບພລິເຄຊັນທີ່ໄວ, ປອດໄພ ແລະ ຮອງຮັບທຸກໜ້າຈໍ.",
+        "en": "Fast, secure and fully responsive websites and web applications."
+      },
+      "items": {
+        "lo": [
+          "ເວັບໄຊບໍລິສັດ",
+          "ເວັບແອັບພລິເຄຊັນ",
+          "ຮ້ານຄ້າອອນລາຍ"
+        ],
+        "en": [
+          "Company websites",
+          "Web applications",
+          "E-commerce"
+        ]
+      }
+    },
+    {
+      "icon": "bezier2",
+      "title": {
+        "lo": "ອອກແບບ UI / UX",
+        "en": "UI / UX Design"
+      },
+      "description": {
+        "lo": "ອອກແບບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ ແລະ ປະສົບການຜູ້ໃຊ້ ໂດຍອີງໃສ່ການຄົ້ນຄວ້າ ແລະ ຂໍ້ມູນຕົວຈິງ.",
+        "en": "User interfaces and user experiences grounded in research and real data."
+      },
+      "items": {
+        "lo": [
+          "Wireframe",
+          "Prototype",
+          "Design System"
+        ],
+        "en": [
+          "Wireframes",
+          "Prototypes",
+          "Design systems"
+        ]
+      }
+    },
+    {
+      "icon": "phone",
+      "title": {
+        "lo": "ແອັບພລິເຄຊັນມືຖື",
+        "en": "Mobile Application"
+      },
+      "description": {
+        "lo": "ພັດທະນາແອັບມືຖືສຳລັບ iOS ແລະ Android ທີ່ໃຊ້ງານໄດ້ລື່ນໄຫຼ.",
+        "en": "Smooth, reliable mobile apps for iOS and Android."
+      },
+      "items": {
+        "lo": [
+          "iOS & Android",
+          "Cross-platform",
+          "ເຊື່ອມຕໍ່ API"
+        ],
+        "en": [
+          "iOS & Android",
+          "Cross-platform",
+          "API integration"
+        ]
+      }
+    },
+    {
+      "icon": "pentagon",
+      "title": {
+        "lo": "ການສ້າງແບຣນ",
+        "en": "Branding"
+      },
+      "description": {
+        "lo": "ອອກແບບໂລໂກ້ ແລະ ເອກະລັກທາງສາຍຕາ ທີ່ສະທ້ອນຕົວຕົນຂອງແບຣນ.",
+        "en": "Logos and visual identities that reflect who a brand really is."
+      },
+      "items": {
+        "lo": [
+          "ໂລໂກ້",
+          "ຄູ່ມືແບຣນ",
+          "ສື່ສິ່ງພິມ"
+        ],
+        "en": [
+          "Logo design",
+          "Brand guidelines",
+          "Print collateral"
+        ]
+      }
+    },
+    {
+      "icon": "diagram-3",
+      "title": {
+        "lo": "ພັດທະນາລະບົບ",
+        "en": "System Development"
+      },
+      "description": {
+        "lo": "ພັດທະນາລະບົບຈັດການພາຍໃນອົງກອນ ເພື່ອເພີ່ມປະສິດທິພາບການເຮັດວຽກ.",
+        "en": "Internal management systems that make organisations run more efficiently."
+      },
+      "items": {
+        "lo": [
+          "ລະບົບ ERP / POS",
+          "Dashboard",
+          "ລະບົບລາຍງານ"
+        ],
+        "en": [
+          "ERP / POS systems",
+          "Dashboards",
+          "Reporting"
+        ]
+      }
+    }
+  ],
+  "experience": [
+    {
+      "year": "2026",
+      "period": {
+        "lo": "2026 — ປັດຈຸບັນ",
+        "en": "2026 — Present"
+      },
+      "role": {
+        "lo": "ນັກພັດທະນາອາວຸໂສ",
+        "en": "Senior Developer"
+      },
+      "company": "Northstar Digital Agency",
+      "description": {
+        "lo": "ນຳທີມພັດທະນາເວັບແອັບພລິເຄຊັນ, ວາງສະຖາປັດຕະຍະກຳລະບົບ ແລະ ກຳນົດມາດຕະຖານໂຄດ.",
+        "en": "Leading the web application team, designing system architecture and setting code standards."
+      }
+    },
+    {
+      "year": "2025",
+      "period": {
+        "lo": "2025 — 2026",
+        "en": "2025 — 2026"
+      },
+      "role": {
+        "lo": "ນັກພັດທະນາເວັບ",
+        "en": "Web Developer"
+      },
+      "company": "Mekong Tech Solutions",
+      "description": {
+        "lo": "ພັດທະນາລະບົບຈັດການພາຍໃນ ແລະ ເວັບໄຊລູກຄ້າດ້ວຍ Laravel, MySQL ແລະ JavaScript.",
+        "en": "Built internal management systems and client websites with Laravel, MySQL and JavaScript."
+      }
+    },
+    {
+      "year": "2024",
+      "period": {
+        "lo": "2022 — 2025",
+        "en": "2022 — 2025"
+      },
+      "role": {
+        "lo": "ນັກພັດທະນາ Freelance",
+        "en": "Freelance Developer"
+      },
+      "company": {
+        "lo": "ອິດສະລະ",
+        "en": "Self-employed"
+      },
+      "description": {
+        "lo": "ອອກແບບ ແລະ ພັດທະນາເວັບໄຊ, ແບຣນ ແລະ UI ໃຫ້ລູກຄ້າຫຼາຍກວ່າ 20 ຮາຍ ທັງໃນ ແລະ ຕ່າງປະເທດ.",
+        "en": "Designed and built websites, brands and interfaces for 20+ local and international clients."
+      }
+    },
+    {
+      "year": "2021",
+      "period": {
+        "lo": "2021 — 2022",
+        "en": "2021 — 2022"
+      },
+      "role": {
+        "lo": "ນັກອອກແບບ UI (ຝຶກງານ)",
+        "en": "UI Designer (Intern)"
+      },
+      "company": "Creative Lab Vientiane",
+      "description": {
+        "lo": "ເລີ່ມຕົ້ນເສັ້ນທາງດ້ວຍການອອກແບບ UI, ສ້າງ Prototype ແລະ ເຮັດວຽກຮ່ວມກັບທີມພັດທະນາ.",
+        "en": "Started out designing interfaces, building prototypes and working closely with developers."
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": {
+        "lo": "ເປັນມືອາຊີບ, ມີຄວາມຄິດສ້າງສັນ ແລະ ໄວ້ວາງໃຈໄດ້. ເວັບໄຊໃໝ່ຂອງພວກເຮົາໄວຂຶ້ນ ແລະ ລູກຄ້າຕິດຕໍ່ເຂົ້າມາຫຼາຍຂຶ້ນຢ່າງເຫັນໄດ້ຊັດ.",
+        "en": "Professional, creative and reliable. Our new website is faster and we get noticeably more enquiries from customers."
+      },
+      "name": "Client Name",
+      "position": {
+        "lo": "ຜູ້ອຳນວຍການ, ບໍລິສັດຕົວຢ່າງ",
+        "en": "Director, Sample Company"
+      }
+    },
+    {
+      "quote": {
+        "lo": "ເຂົ້າໃຈຄວາມຕ້ອງການຂອງພວກເຮົາໄວຫຼາຍ. ລະບົບຈັດການທີ່ພັດທະນາໃຫ້ຊ່ວຍປະຢັດເວລາການເຮັດວຽກຂອງທີມໄດ້ຫຼາຍ.",
+        "en": "Understood our needs incredibly quickly. The management system saved our team hours of work every week."
+      },
+      "name": "Client Name",
+      "position": {
+        "lo": "ຜູ້ຈັດການຝ່າຍປະຕິບັດການ",
+        "en": "Operations Manager"
+      }
+    },
+    {
+      "quote": {
+        "lo": "ການອອກແບບແບຣນອອກມາສວຍງາມ ແລະ ລຽບງ່າຍ ຕາມທີ່ພວກເຮົາຕ້ອງການ. ການສື່ສານຕະຫຼອດໂຄງການກໍຊັດເຈນຫຼາຍ.",
+        "en": "The brand identity came out clean and elegant, exactly what we wanted. Communication was clear throughout."
+      },
+      "name": "Client Name",
+      "position": {
+        "lo": "ຜູ້ກໍ່ຕັ້ງ, ສະຕາດອັບ",
+        "en": "Founder, Start-up"
+      }
+    }
+  ],
+  "site": {
+    "name": "Sophar",
+    "email": "hello@sophar.dev",
+    "phone": "+856 20 5555 0000",
+    "location": {
+      "lo": "ວຽງຈັນ, ລາວ",
+      "en": "Vientiane, Laos"
+    },
+    "formEndpoint": "",
+    "socials": [
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "url": "https://www.facebook.com/"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "Instagram",
+        "icon": "instagram",
+        "url": "https://www.instagram.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/"
+      }
+    ],
+    "stats": [
+      {
+        "value": 5,
+        "suffix": "+",
+        "label": "about.statYears"
+      },
+      {
+        "value": 30,
+        "suffix": "+",
+        "label": "about.statProjects"
+      },
+      {
+        "value": 20,
+        "suffix": "+",
+        "label": "about.statClients"
+      }
+    ]
+  },
+  "hero": {
+    "lo": {
+      "label": "ວ່າງຮັບໂຄງການໃໝ່ · 2026",
+      "greeting": "ສະບາຍດີ, ຂ້ອຍແມ່ນ",
+      "role1": "ນັກພັດທະນາສ້າງສັນ",
+      "role2": "& ນັກອອກແບບດິຈິຕອນ",
+      "intro": "ຂ້ອຍອອກແບບ ແລະ ພັດທະນາເວັບໄຊ, ແອັບພລິເຄຊັນ ແລະ ລະບົບດິຈິຕອນ ທີ່ສວຍງາມ, ໃຊ້ງານງ່າຍ ແລະ ວັດຜົນໄດ້ຈິງ ສຳລັບທຸລະກິດ ແລະ ແບຣນທີ່ຕ້ອງການເຕີບໂຕ.",
+      "ctaWork": "ເບິ່ງຜົນງານ",
+      "ctaContact": "ຕິດຕໍ່ຂ້ອຍ",
+      "scroll": "ເລື່ອນລົງ",
+      "based": "ປະຈຳຢູ່",
+      "location": "ວຽງຈັນ, ລາວ",
+      "imageAlt": "ຮູບໂປຣໄຟລ໌ຂອງ Sophar",
+      "badge": "ປະສົບການ 5 ປີ+"
+    },
+    "en": {
+      "label": "Available for new projects · 2026",
+      "greeting": "Hello, I'm",
+      "role1": "Creative Developer",
+      "role2": "& Digital Designer",
+      "intro": "I design and build websites, applications and digital systems that are beautiful, easy to use and measurably effective — for businesses and brands that want to grow.",
+      "ctaWork": "View my work",
+      "ctaContact": "Contact me",
+      "scroll": "Scroll down",
+      "based": "Based in",
+      "location": "Vientiane, Laos",
+      "imageAlt": "Portrait of Sophar",
+      "badge": "5+ years of experience"
+    }
+  },
+  "about": {
+    "lo": {
+      "label": "ກ່ຽວກັບຂ້ອຍ",
+      "heading": "ອອກແບບດ້ວຍເຫດຜົນ, ພັດທະນາດ້ວຍຄວາມໃສ່ໃຈ.",
+      "intro": "ຂ້ອຍແມ່ນ Sophar ນັກພັດທະນາ Full-stack ແລະ ນັກອອກແບບດິຈິຕອນຈາກວຽງຈັນ. ຂ້ອຍຊ່ວຍທຸລະກິດປ່ຽນແນວຄວາມຄິດໃຫ້ກາຍເປັນຜະລິດຕະພັນດິຈິຕອນທີ່ຄົນຢາກໃຊ້.",
+      "personal": "ຕະຫຼອດ 5 ປີທີ່ຜ່ານມາ ຂ້ອຍໄດ້ເຮັດວຽກກັບບໍລິສັດເລີ່ມຕົ້ນ, ອົງກອນ ແລະ ແບຣນທ້ອງຖິ່ນ, ຕັ້ງແຕ່ການວາງແຜນ, ອອກແບບ UI ຈົນເຖິງການພັດທະນາ ແລະ ເປີດໃຊ້ງານຈິງ.",
+      "focusTitle": "ຈຸດເນັ້ນ",
+      "focus": "ເວັບແອັບພລິເຄຊັນດ້ວຍ Laravel, ລະບົບຈັດການພາຍໃນອົງກອນ ແລະ Design System ທີ່ຂະຫຍາຍໄດ້.",
+      "philosophyTitle": "ປັດຊະຍາ",
+      "philosophy": "ການອອກແບບທີ່ດີຄືການອອກແບບທີ່ເບິ່ງບໍ່ເຫັນ. ທຸກລາຍລະອຽດຕ້ອງມີເຫດຜົນ ແລະ ຮັບໃຊ້ຜູ້ໃຊ້.",
+      "statYears": "ປີແຫ່ງປະສົບການ",
+      "statProjects": "ໂຄງການທີ່ສຳເລັດ",
+      "statClients": "ລູກຄ້າທີ່ໄວ້ວາງໃຈ"
+    },
+    "en": {
+      "label": "About me",
+      "heading": "Designed with reason, built with care.",
+      "intro": "I'm Sophar, a full-stack developer and digital designer from Vientiane. I help businesses turn ideas into digital products people actually want to use.",
+      "personal": "Over the past five years I have worked with start-ups, organisations and local brands — from planning and UI design through to development and launch.",
+      "focusTitle": "Focus",
+      "focus": "Laravel web applications, internal business systems and design systems that scale.",
+      "philosophyTitle": "Philosophy",
+      "philosophy": "Good design is invisible. Every detail should have a reason and should serve the people using it.",
+      "statYears": "Years of experience",
+      "statProjects": "Projects delivered",
+      "statClients": "Happy clients"
+    }
+  },
+  "contact": {
+    "lo": {
+      "label": "ຕິດຕໍ່",
+      "heading1": "ມາເຮັດວຽກ",
+      "heading2": "ຮ່ວມກັນ.",
+      "text": "ມີໂຄງການໃນໃຈບໍ? ມາສ້າງສິ່ງທີ່ຍິ່ງໃຫຍ່ໄປພ້ອມກັນ.",
+      "reply": "ປົກກະຕິຕອບກັບພາຍໃນ 24 ຊົ່ວໂມງ",
+      "email": "ອີເມວ",
+      "phone": "ເບີໂທ",
+      "location": "ທີ່ຢູ່",
+      "name": "ຊື່",
+      "subject": "ຫົວຂໍ້",
+      "message": "ຂໍ້ຄວາມ",
+      "namePh": "ຊື່ຂອງທ່ານ",
+      "emailPh": "you@example.com",
+      "subjectPh": "ກ່ຽວກັບໂຄງການຂອງທ່ານ",
+      "messagePh": "ເລົ່າໃຫ້ຂ້ອຍຟັງກ່ຽວກັບໂຄງການ, ເປົ້າໝາຍ ແລະ ກຳນົດເວລາ...",
+      "send": "ສົ່ງຂໍ້ຄວາມ",
+      "sending": "ກຳລັງສົ່ງ...",
+      "success": "ຂອບໃຈ! ຂໍ້ຄວາມຂອງທ່ານຖືກສົ່ງແລ້ວ. ຂ້ອຍຈະຕອບກັບໄວທີ່ສຸດ.",
+      "mailto": "ກຳລັງເປີດແອັບອີເມວຂອງທ່ານ ເພື່ອສົ່ງຂໍ້ຄວາມ.",
+      "failed": "ບໍ່ສາມາດສົ່ງຂໍ້ຄວາມໄດ້. ກະລຸນາລອງໃໝ່ ຫຼື ສົ່ງອີເມວຫາຂ້ອຍໂດຍກົງ.",
+      "nameRequired": "ກະລຸນາປ້ອນຊື່ຂອງທ່ານ.",
+      "emailRequired": "ກະລຸນາປ້ອນອີເມວ.",
+      "emailInvalid": "ຮູບແບບອີເມວບໍ່ຖືກຕ້ອງ.",
+      "subjectRequired": "ກະລຸນາປ້ອນຫົວຂໍ້.",
+      "messageRequired": "ກະລຸນາປ້ອນຂໍ້ຄວາມ.",
+      "messageShort": "ຂໍ້ຄວາມຕ້ອງມີຢ່າງໜ້ອຍ 10 ຕົວອັກສອນ."
+    },
+    "en": {
+      "label": "Contact",
+      "heading1": "Let's work",
+      "heading2": "together.",
+      "text": "Have a project in mind? Let's create something great.",
+      "reply": "I usually reply within 24 hours",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "name": "Name",
+      "subject": "Subject",
+      "message": "Message",
+      "namePh": "Your name",
+      "emailPh": "you@example.com",
+      "subjectPh": "What is your project about?",
+      "messagePh": "Tell me about your project, goals and timeline...",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent. I'll get back to you soon.",
+      "mailto": "Opening your email app to send the message.",
+      "failed": "The message could not be sent. Please try again or email me directly.",
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email.",
+      "emailInvalid": "Please enter a valid email address.",
+      "subjectRequired": "Please enter a subject.",
+      "messageRequired": "Please enter a message.",
+      "messageShort": "Your message should be at least 10 characters."
+    }
+  },
+  "meta": {
+    "lo": {
+      "home": {
+        "title": "Sophar — ນັກພັດທະນາສ້າງສັນ & ນັກອອກແບບດິຈິຕອນ",
+        "description": "Portfolio ຂອງ Sophar ນັກພັດທະນາເວັບ ແລະ ນັກອອກແບບ UI/UX ຈາກວຽງຈັນ ປະເທດລາວ. ອອກແບບ ແລະ ພັດທະນາເວັບໄຊ, ແອັບມືຖື ແລະ ລະບົບສຳລັບທຸລະກິດ."
+      },
+      "about": {
+        "title": "ກ່ຽວກັບຂ້ອຍ — Sophar",
+        "description": "ຮູ້ຈັກ Sophar ຫຼາຍຂຶ້ນ: ທັກສະ, ປະສົບການ ແລະ ປັດຊະຍາໃນການອອກແບບ ແລະ ພັດທະນາ."
+      },
+      "projects": {
+        "title": "ຜົນງານ — Sophar",
+        "description": "ຜົນງານຄັດເລືອກຂອງ Sophar: ເວັບໄຊ, ແອັບມືຖື, UI/UX ແລະ ການສ້າງແບຣນ."
+      },
+      "contact": {
+        "title": "ຕິດຕໍ່ — Sophar",
+        "description": "ມີໂຄງການໃນໃຈບໍ? ຕິດຕໍ່ Sophar ເພື່ອເລີ່ມຕົ້ນເຮັດວຽກຮ່ວມກັນ."
+      }
+    },
+    "en": {
+      "home": {
+        "title": "Sophar — Creative Developer & Digital Designer",
+        "description": "Portfolio of Sophar, a web developer and UI/UX designer based in Vientiane, Laos. Designing and building websites, mobile apps and business systems."
+      },
+      "about": {
+        "title": "About — Sophar",
+        "description": "Get to know Sophar: skills, experience and a philosophy of design and development."
+      },
+      "projects": {
+        "title": "Work — Sophar",
+        "description": "Selected work by Sophar: websites, mobile apps, UI/UX and branding."
+      },
+      "contact": {
+        "title": "Contact — Sophar",
+        "description": "Have a project in mind? Get in touch with Sophar to start working together."
+      }
+    }
+  }
+}

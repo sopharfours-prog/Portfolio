@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+/** An email reply sent from the admin to a contact message. */
+class MessageReply extends Model
+{
+    protected $fillable = ['message_id', 'user_id', 'subject', 'body'];
+
+    public function message(): BelongsTo
+    {
+        return $this->belongsTo(Message::class);
+    }
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+}
